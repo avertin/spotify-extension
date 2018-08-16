@@ -22,7 +22,7 @@
     spotifyApi.getMe([], function(err, data) {
       if (err) {
         console.error(err);
-        alert("Error connecting to Spotify. Most likely due to an expired oauth token.");
+        alert("Error connecting to Spotify. Couldn't get the username. Most likely due to an expired oauth token.");
       } else {
         user = data.id;
       }
@@ -51,7 +51,7 @@
   function populatePlaylist(err, data) {
     if (err) {
       console.error(err);
-      alert("Error connecting to Spotify. Most likely due to an expired oauth token.");
+      alert("Error connecting to Spotify. Couldn't populate the playlist. Most likely due to an expired oauth token.");
     } else {
       // Get id of new playlist
       var id = data.id;
@@ -74,7 +74,7 @@
           spotifyApi.addTracksToPlaylist(user, id, tracks, [], function(err, data) {
             if (err) {
               console.error(err);
-              alert("Error connecting to Spotify. Most likely due to an expired oauth token.");
+              alert("Error connecting to Spotify. Couldn't add track to playlist. Most likely due to an expired oauth token.");
             } else {
               console.log(data);
             }
