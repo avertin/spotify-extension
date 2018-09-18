@@ -2,7 +2,7 @@
 
 // Wrap everything in an anonymous function to avoid polluting the global namespace
 (function() {
-  var token = 'BQBE3422yh-BQCPMs1oKVxBFsEiof7MVdSazxIJxJKq9HK8jmsIieiglp7TkIDZzQnUr1xXCF1W8h4FL6ADg';
+  var token = 'BQCPMs1oKVxBFsEiof7MVdSazxIJxJKq9HK8jmsIieiglp7TkIDZzQnUr1xXCF1W8h4FL6ADg-qnjIDgoUhQ9339pNnTE6eudLijvTnjRSQTWxbRpswNaVwZ6Zbjn_KW4NfObz5RrHodauZ92VLi_3iC_owQeZbQY4znXUh60vALR24lDo-NTd-pGvM0evcBc60hjqSeHrLFLBV3WK0uLT9p2i4uDg2Pkw';
 
   var spotifyApi = new SpotifyWebApi();
   var user;
