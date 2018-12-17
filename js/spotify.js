@@ -2,7 +2,7 @@
 
 // Wrap everything in an anonymous function to avoid polluting the global namespace
 (function() {
-  var token = 'BQD3AqpdYAt4lGfHwFzU1IS7IMlNpr35bvXrifHgM2hC0yC-72Bd-gAqZkBOl8bGv8JAE0GXOiAv-jlNGTZd-IuRGMynFkc3_aVTn3SIUpVA8GGwEChoGvLaOg0gccaCGOKhEwDMPiRP0gBc68dekp-fGkEzmJqMKCuacUVEqjMjYm5aY7zlnXd03cnAByvnqWhsOv_DvVeLrtdEyWNtd6x0IRCK0I_nAw';
+  var token = 'BQDpFSPT3lKIxsDmIT8zipZrvHNo_nVl4JD2KPMbTDCbRNuzlHiI-67Lv5OQzCvMtnF6IA3jNxON4RY2JEm3o9OyfergrX8OOWe53-uHCqz1Bv9RHA9q6Jm2z7Z645LeHeFvSvOBwc-YMucda7nWLLOsOznQMsMsZZM9_HpL7QkK7njMC29zMdgwPh9vZYAXjn1_i38a7DkyOlASf2dfhKub5brm9qnCyA';
 
   var spotifyApi = new SpotifyWebApi();
   var user;
